@@ -1,12 +1,14 @@
 ﻿using DevFreela.Application.Commands.CreateUser;
+using DevFreela.Application.Commands.LoginUser;
 using DevFreela.Application.Queries.GetUser;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevFreela.API.Controllers;
 
-[Route("api/users")]
 [ApiController]
+[Route("api/users")]
 public class UsersController : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -15,6 +17,7 @@ public class UsersController : ControllerBase
         _mediator = mediator;
     }
     [HttpGet("{id}")]
+    [Authorize(Roles = "client, freelancer")]
     public IActionResult GetById(int id)
     {
         var query = new GetUserByIdQuery(id);
@@ -29,18 +32,25 @@ public class UsersController : ControllerBase
         return Ok(user);
     }
     [HttpPost]
+    [AllowAnonymous]
     public IActionResult Post([FromBody] CreateUserCommand command)
-    {        
+    {
         var id = _mediator.Send(command);
 
         return CreatedAtAction(nameof(GetById), new { id }, command);
     }
 
-    //[HttpPut("{id}/login")]
-    //public IActionResult Login(int id, [FromBody] LoginModel login)
-    //{
-    //    TODO: Para Módulo de Autenticação e Autorização
+    [HttpPut("login")]
+    [AllowAnonymous]
+    public async Task<IActionResult> Login([FromBody] LoginUserCommand login)
+    {
+        var loginUserViewModel = await _mediator.Send(login);
 
-    //    return NoContent();
-    //}
+        if (loginUserViewModel == null)
+        {
+            return BadRequest();
+        }
+
+        return Ok(loginUserViewModel);
+    }
 }

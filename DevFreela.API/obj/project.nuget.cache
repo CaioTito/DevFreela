@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gfX6zbDznODMdBs8sXGkC3cJ7pMLtQn6/Kgi56Ea91I1FFo1RKmr2Ss2a8w+kaWoet1DKmf3v8YV+DBvTufzFA==",
+  "dgSpecHash": "HgwmWYPfIymEFZRj0iZYG3h65wtH36mnvTG9/MjO8S3xPmyCew7HFcOVzrU7awLlp6kDiaRBcF/7ZB34P6WAKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\caio_\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\caio_\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.4\\microsoft.aspnetcore.authentication.jwtbearer.7.0.4.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

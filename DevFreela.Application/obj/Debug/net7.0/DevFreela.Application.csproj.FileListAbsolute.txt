@@ -1,8 +1,3 @@
-C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.csproj.AssemblyReference.cache
-C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.AssemblyInfoInputs.cache
-C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.AssemblyInfo.cs
-C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.csproj.CoreCompileInputs.cache
 C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\bin\Debug\net7.0\DevFreela.Application.deps.json
 C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\bin\Debug\net7.0\DevFreela.Application.dll
 C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\bin\Debug\net7.0\DevFreela.Application.pdb
@@ -10,6 +5,11 @@ C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\bin\Debug\net7.0\Dev
 C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\bin\Debug\net7.0\DevFreela.Infrastructure.dll
 C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\bin\Debug\net7.0\DevFreela.Core.pdb
 C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\bin\Debug\net7.0\DevFreela.Infrastructure.pdb
+C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.csproj.AssemblyReference.cache
+C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.AssemblyInfoInputs.cache
+C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.AssemblyInfo.cs
+C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.csproj.CoreCompileInputs.cache
 C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.csproj.CopyComplete
 C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\DevFreela.Application.dll
 C:\Users\caio_\source\repos\DevFreela\DevFreela.Application\obj\Debug\net7.0\refint\DevFreela.Application.dll
