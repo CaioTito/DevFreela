@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NO5ihmIDn1y/TDZbncsxf1HsN9Yo1Y06bAumvLNwwNpTOkmHn/bnFGOY1BC/pgpyvoKCUSnE0lhbswwJB1DsLw==",
+  "dgSpecHash": "L10dXTxc3ofSskhLN1SA0yHk0YOkFIu+ZU1nycJ9FF1aT0lW7/x6U3dzHs3f8uNs5o6EssXZaiSh/3VpDP+wIQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\caio_\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
-    "C:\\Users\\caio_\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\caio_\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

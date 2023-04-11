@@ -54,22 +54,22 @@ public class ProjectRepository : IProjectRepository
         await _dbContext.SaveChangesAsync();
     }
 
-    public async Task StartAsync(Project project)
-    {
-        //DAPPER
-        using (var sqlConnection = new SqlConnection(_connectionString))
-        {
-            sqlConnection.Open();
+    //public async Task StartAsync(Project project)
+    //{
+    //    DAPPER
+    //    using (var sqlConnection = new SqlConnection(_connectionString))
+    //    {
+    //        sqlConnection.Open();
 
-            var script = "UPDATE Projects SET Status = @Status, StartedAt = @startedat WHERE Id = @id";
+    //        var script = "UPDATE Projects SET Status = @Status, StartedAt = @startedat WHERE Id = @id";
 
-            await sqlConnection.ExecuteAsync(script, new { status = project.Status, startedat = project.StartedAt, project.Id });
-        }
+    //        await sqlConnection.ExecuteAsync(script, new { status = project.Status, startedat = project.StartedAt, project.Id });
+    //    }
 
-        //EF
-        //var project = _dbContext.Projects.SingleOrDefault(p => p.Id == id);
+    //    EF
+    //    var project = _dbContext.Projects.SingleOrDefault(p => p.Id == id);
 
-        //project.Start();
-        //_dbContext.SaveChanges();
-    }
+    //    project.Start();
+    //    _dbContext.SaveChanges();
+    //}
 }

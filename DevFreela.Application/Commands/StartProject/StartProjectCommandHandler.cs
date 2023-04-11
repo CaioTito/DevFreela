@@ -18,7 +18,7 @@ public class StartProjectCommandHandler : IRequestHandler<StartProjectCommand, U
 
         project.Start();
 
-        await _projectRepository.StartAsync(project);
+        await _projectRepository.SaveChangesAsync();
 
         return Unit.Value;
     }

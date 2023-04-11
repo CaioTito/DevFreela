@@ -1,4 +1,5 @@
 ﻿using DevFreela.Core.Enums;
+using System.Xml.Linq;
 
 namespace DevFreela.Core.Entities;
 
@@ -61,5 +62,16 @@ public class Project : BaseEntity
         Title = title; 
         Description = description;
         TotalCost = totalCost;
+    }
+
+    public static Project From(string title, string description, int idClient, int idFreelancer, decimal totalCost)
+    {
+        return new Project(
+            title,
+            description,
+            idClient,
+            idFreelancer,
+            totalCost
+        );
     }
 }
