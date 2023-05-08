@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gn4pHFjP+nqyYq333eDDkosibexPE++P5OqT8fA+d2T5EjQoYCO9tjze/LVrJ0qHvhXSGmeyjDpAFiBC+GG1cA==",
+  "dgSpecHash": "Mlto/9gjxjxWuTDDttao9m3i4fZ6usLk2A254R8JAPVFKTC1gM96M8V3x7BhqS4zyX4tc+7eCUWGICKNcyHMiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.http\\7.0.0\\microsoft.extensions.http.7.0.0.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\caio_\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",

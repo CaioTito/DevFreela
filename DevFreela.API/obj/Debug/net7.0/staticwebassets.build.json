@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Um+mrfu30jR4TMQdTQZ2L25a+aCwTC0R6nLKkhDJlwY=",
+  "Hash": "8y76Sp7dn05GgyDKxb5MYFMqVSbUqjJ0Pah9xDUVoeA=",
   "Source": "DevFreela.API",
   "BasePath": "_content/DevFreela.API",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.API\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DevFreela.API.styles.css",
-      "SourceId": "DevFreela.API",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.API\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/DevFreela.API",
-      "RelativePath": "DevFreela.API.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.API\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DevFreela.API.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.API\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DevFreela.API.bundle.scp.css",
-      "SourceId": "DevFreela.API",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.API\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/DevFreela.API",
-      "RelativePath": "DevFreela.API.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.API\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DevFreela.API.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.API\\wwwroot\\css\\site.css",
       "SourceId": "DevFreela.API",

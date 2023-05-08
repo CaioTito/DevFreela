@@ -64,6 +64,12 @@ public class Project : BaseEntity
         TotalCost = totalCost;
     }
 
+    public void SetPaymentPending()
+    {
+        Status = ProjectStatusEnum.PaymentPending;
+        FinishedAt = null;
+    }
+
     public static Project From(string title, string description, int idClient, int idFreelancer, decimal totalCost)
     {
         return new Project(

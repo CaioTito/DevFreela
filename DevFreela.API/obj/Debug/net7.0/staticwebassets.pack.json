@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.API\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DevFreela.API.bundle.scp.css",
-      "PackagePath": "staticwebassets\\DevFreela.API.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\caio_\\source\\repos\\DevFreela\\DevFreela.API\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

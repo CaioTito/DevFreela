@@ -75,8 +75,6 @@ C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\DevFreela.A
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\DevFreela.API.csproj.CoreCompileInputs.cache
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\DevFreela.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\DevFreela.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\DevFreela.API.RazorAssemblyInfo.cache
-C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\DevFreela.API.RazorAssemblyInfo.cs
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\staticwebassets\msbuild.DevFreela.API.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\staticwebassets\msbuild.build.DevFreela.API.props
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DevFreela.API.props
@@ -84,9 +82,7 @@ C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\staticwebas
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\scopedcss\bundle\DevFreela.API.styles.css
-C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\scopedcss\projectbundle\DevFreela.API.bundle.scp.css
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\DevFreela.API.csproj.CopyComplete
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\DevFreela.API.dll
 C:\Users\caio_\source\repos\DevFreela\DevFreela.API\obj\Debug\net7.0\refint\DevFreela.API.dll
