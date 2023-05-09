@@ -21,7 +21,7 @@ public class FinishProjectCommandHandler : IRequestHandler<FinishProjectCommand,
 
         var paymentInfoDto = new PaymentInfoDTO(request.Id, request.CreditCardNumber, request.Cvv, request.ExpiresAt, request.FullName, project.TotalCost);
 
-        await _paymentService.ProcessPayment(paymentInfoDto);
+        _paymentService.ProcessPayment(paymentInfoDto);
 
         project.SetPaymentPending();
 
