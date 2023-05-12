@@ -24,10 +24,8 @@ public class ProjectsController : ControllerBase
     }
     [HttpGet]
     [Authorize(Roles ="client, freelancer")]
-    public async Task<ActionResult> GetAll(string query)
+    public async Task<ActionResult> GetAll([FromQuery] GetAllProjectsQuery getAllProjectsQuery)
     {
-        var getAllProjectsQuery = new GetAllProjectsQuery(query);
-
         var projects = await _mediator.Send(getAllProjectsQuery);
 
         return Ok(projects);

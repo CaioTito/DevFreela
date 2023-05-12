@@ -1,8 +1,6 @@
-﻿using Azure.Core;
-using Dapper;
-using DevFreela.Core.Entities;
+﻿using DevFreela.Core.Entities;
+using DevFreela.Core.Models;
 using DevFreela.Core.Repositories;
-using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -31,9 +29,18 @@ public class ProjectRepository : IProjectRepository
         await _dbContext.SaveChangesAsync();
     }
 
-    public async Task<List<Project>> GetAllAsync()
+    public async Task<PaginationResult<Project>> GetAllAsync(string query, int page, int pageSize)
     {
-        return await _dbContext.Projects.ToListAsync();
+        IQueryable<Project> projects = _dbContext.Projects;
+
+        if (!string.IsNullOrWhiteSpace(query))
+        {
+            projects = projects
+                .Where(p =>
+                    p.Title.Contains(query) ||
+                    p.Description.Contains(query));
+        }
+        return await projects.GetPaged<Project>(page, pageSize);
     }
 
     public async Task<Project> GetByIdAsync(int id)
@@ -43,7 +50,7 @@ public class ProjectRepository : IProjectRepository
             .Include(p => p.Freelancer)
             .SingleOrDefaultAsync(p => p.Id == id);
 
-        if (project == null) 
+        if (project == null)
             return null;
 
         return project;
