@@ -22,7 +22,7 @@ namespace DevFreela.Application.Commands.CreateUser
 
             var user = new User(request.FullName, request.Email, request.BirthDate, passwordHash, request.Role);
 
-            await _unitOfWork.User.AddAsync(user);
+            await _unitOfWork.Users.AddAsync(user);
 
             await _unitOfWork.CompleteAsync();
 
