@@ -9,5 +9,4 @@ public interface IProjectRepository
     Task<Project> GetByIdAsync(int id);
     Task AddAsync(Project project);
     Task AddProjectCommentAsync(ProjectComment comment);
-    Task SaveChangesAsync();
 }

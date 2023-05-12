@@ -3,6 +3,7 @@ using DevFreela.Core.Services;
 using DevFreela.Infrastructure.Auth;
 using DevFreela.Infrastructure.MessageBus;
 using DevFreela.Infrastructure.Payments;
+using DevFreela.Infrastructure.Persistence;
 using DevFreela.Infrastructure.Persistence.Repositories;
 
 namespace DevFreela.API.Extensions;
@@ -17,6 +18,7 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IAuthService, AuthService>();
         services.AddScoped<IPaymentService, PaymentService>();
         services.AddScoped<IMessageBusService, MessageBusService>();
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
 
         return services;
     }
