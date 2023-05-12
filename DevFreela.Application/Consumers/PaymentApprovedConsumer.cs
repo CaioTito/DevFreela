@@ -4,7 +4,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
-using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using System.Text.Json;
 
@@ -61,13 +60,13 @@ public class PaymentApprovedConsumer : BackgroundService
     {
         using (var scope = _serviceProvider.CreateScope())
         {
-            var projectRepository = scope.ServiceProvider.GetRequiredService<IProjectRepository>();
+            var unitOfWork = scope.ServiceProvider.GetRequiredService<IUnitOfWork>();
 
-            var project = await projectRepository.GetByIdAsync(id);
+            var project = await unitOfWork.Projects.GetByIdAsync(id);
 
             project.Finish();
 
-            await projectRepository.SaveChangesAsync();
+            await unitOfWork.CompleteAsync();
         }
     }
 }

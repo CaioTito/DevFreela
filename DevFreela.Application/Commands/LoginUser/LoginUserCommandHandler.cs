@@ -20,7 +20,7 @@ public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, LoginUs
     {
         var passwordHash = _authService.ComputeSha256Hash(request.Password);
 
-        var user = await _unitOfWork.User.GetUserByEmailAndPasswordAsync(request.Email, passwordHash);
+        var user = await _unitOfWork.Users.GetUserByEmailAndPasswordAsync(request.Email, passwordHash);
         if (user == null) 
         {
             return null;

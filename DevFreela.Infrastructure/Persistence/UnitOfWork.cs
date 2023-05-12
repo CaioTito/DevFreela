@@ -1,17 +1,21 @@
 ﻿using DevFreela.Core.Repositories;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace DevFreela.Infrastructure.Persistence;
 
 public class UnitOfWork : IUnitOfWork
 {
+    private IDbContextTransaction _transaction;
     public IProjectRepository Projects { get; }
-    public IUserRepository User { get; }
+    public IUserRepository Users { get; }
+    public ISkillRepository Skills { get; }
     private readonly DevFreelaDbContext _context;
-    public UnitOfWork(DevFreelaDbContext context, IProjectRepository projects, IUserRepository user)
+    public UnitOfWork(DevFreelaDbContext context, IProjectRepository projects, IUserRepository users, ISkillRepository skills)
     {
         _context = context;
         Projects = projects;
-        User = user;
+        Users = users;
+        Skills = skills;
     }
     public async Task<int> CompleteAsync()
     {
@@ -29,6 +33,22 @@ public class UnitOfWork : IUnitOfWork
         if (disposing)
         {
             _context.Dispose();
+        }
+    }
+
+    public async Task BeginTransactionAsync()
+    {
+        _transaction = await _context.Database.BeginTransactionAsync();
+    }
+
+    public async Task CommitAsync()
+    {
+        try
+        {
+            await _transaction.CommitAsync();
+        }catch (Exception ex) {
+            await _transaction.RollbackAsync();
+            throw ex;
         }
     }
 }
